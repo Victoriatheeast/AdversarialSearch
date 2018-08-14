@@ -23,22 +23,6 @@ Finally, agents have a fixed time limit (150 milliseconds by default) to search 
 The easiest way to complete the project is to use the Udacity Workspace in your classroom. The environment has already been configured with the required files and libraries to support the project. If you decide to use the Workspace, then you do NOT need to perform any of the setup steps for this project. Skip to the section with instructions for completing the project.
 
 
-## Getting Started (Local Environment)
-
-If you would prefer to complete the exercise in your own local environment, then follow the steps below:
-
-- Open your terminal and activate the aind conda environment (OS X or Unix/Linux users use the command shown; Windows users only run `activate aind`)
-```
-$ source activate aind
-```
-
-- Download a copy of the project files from GitHub and navigate to the project folder. (Note: if you've previously downloaded the repository for another project then you can skip the clone command. However, you should run `git pull` to receive any project updates since you cloned the repository.)
-```
-(aind) $ git clone https://github.com/udacity/artificial-intelligence
-(aind) $ cd "artificial-intelligence/Projects/3_Game Playing"
-```
-
-
 ## Instructions
 
 You must implement an agent in the `CustomPlayer` class defined in the `game_agent.py` file. The interface definition for game agents only requires you to implement the `.get_action()` method, but you can add any other methods to the class that you deem necessary.  You can build a basic agent by combining minimax search with alpha-beta pruning and iterative deepening from lecture.
@@ -141,19 +125,3 @@ Your report must include a table or chart with data from an experiment to evalua
 - Choose a baseline search algorithm for comparison (for example, alpha-beta search with iterative deepening, etc.). How much performance difference does your agent show compared to the baseline?
 - Why do you think the technique you chose was more (or less) effective than the baseline?
 
-
-
-## Evaluation
-
-Your project will be reviewed by a Udacity reviewer against the project rubric [here](https://review.udacity.com/#!/rubrics/1801/view). Review this rubric thoroughly, and self-evaluate your project before submission. All criteria found in the rubric must meet specifications for you to pass.
-
-
-## Submission
-
-Before you can submit your project for review in the classroom, you must run the remote test suite & generate a zip archive of the required project files. Submit the archive in your classroom for review. (See notes on submissions below for more details.) From your terminal, run the command: (make sure to activate the aind conda environment if you're running the project in your local environment; workspace users do **not** need to activate an environment.)
-```
-$ udacity submit
-```
-The script will automatically create a zip archive of the required files (`my_custom_player.py` and `report.pdf` are required; `data.pickle` will be included if it exists) and submit your code to a remote server for testing. You can only submit a zip archive created by the PA script (even if you're only submitting a partial solution), and you **must submit the exact zip file created by the Project Assistant** in your classroom for review. The classroom verifies the zip file submitted against records on the Project Assistant system; any changes in the file will cause your submission to be rejected.
-
-**NOTE:** Students who authenticate with Facebook or Google accounts _must_ follow the instructions on the FAQ page [here](https://project-assistant.udacity.com/faq) to obtain an authentication token. (The Workspace already includes instructions for obtaining and configuring your token.)
