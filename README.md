@@ -17,12 +17,6 @@ Finally, agents have a fixed time limit (150 milliseconds by default) to search 
 
 **You can find more information (including implementation details) about the in the Isolation library readme [here](/isolation/README.md).**
 
-
-## Getting Started (Workspaces)
-
-The easiest way to complete the project is to use the Udacity Workspace in your classroom. The environment has already been configured with the required files and libraries to support the project. If you decide to use the Workspace, then you do NOT need to perform any of the setup steps for this project. Skip to the section with instructions for completing the project.
-
-
 ## Instructions
 
 You must implement an agent in the `CustomPlayer` class defined in the `game_agent.py` file. The interface definition for game agents only requires you to implement the `.get_action()` method, but you can add any other methods to the class that you deem necessary.  You can build a basic agent by combining minimax search with alpha-beta pruning and iterative deepening from lecture.
